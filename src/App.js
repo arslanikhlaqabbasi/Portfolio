@@ -15,7 +15,7 @@ import Services2 from './component/Services2';
 function App() {
   return (
    <>
-   {/* <Menu/> */}
+   <Menu/>
    <Routes>
 
    <Route exact path='/' element={<Home/>}/>
