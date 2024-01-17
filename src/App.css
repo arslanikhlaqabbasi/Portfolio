@@ -23,9 +23,38 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.font1{
+
+font-weight:200;
+line-height: 1.1;
+letter-spacing: 0px;
+font-style: normal;
+}
+.active {
+  border-color: #FF0000; /* Add other active styles if needed */
+}
 
 .App-link {
   color: #61dafb;
+}
+
+.service:hover .dropdown{
+  background-color: rgb(167, 32, 32);
+  display: inline;
+}
+
+.services:hover .sub{
+  display: block;
+  
+}
+.sub{
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  padding: 10px;
+  border: 1px solid white;
 }
 
 @keyframes App-logo-spin {
@@ -36,3 +65,4 @@
     transform: rotate(360deg);
   }
 }
+
